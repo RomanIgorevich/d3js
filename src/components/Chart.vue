@@ -1,8 +1,5 @@
 <template>
-  <div >
-    <form action="#" @submit.prevent="getIssues">...</form>
-    <chart :issues="issues"></chart>
-  </div>
+  <div><svg></svg></div>
 </template>
 <script>
 import * as d3 from "d3";
